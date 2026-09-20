@@ -27,7 +27,6 @@ import MainNavigator from './src/navigation/MainNavigator';
 
 import HomeScreen from './src/screens/Home/HomeScreen';
 import NotificationScreen from './src/screens/Home/NotificationScreen';
-import AIScreen from './src/screens/Home/AIScreen';
 
 import ArticleScreen from './src/screens/Article/ArticleScreen';
 import RecommendationScreen from './src/screens/Article/RecommendationScreen';
@@ -76,9 +75,6 @@ import RiwayatNutrisiScreen from './src/screens/Nutrition/RiwayatNutrisiScreen';
 import DetailRiwayatNutrisiScreen from './src/screens/Nutrition/DetailRiwayatNutrisiScreen.jsx';
 import ResepMakananScreen from './src/screens/Nutrition/ResepMakananScreen.jsx';
 import DetailResepMakananScreen from './src/screens/Nutrition/DetailResepMakananScreen.jsx';
-
-import SleepScreen from './src/screens/Sleep/SleepScreen';
-import SleepMonitoringScreen from './src/screens/Sleep/SleepMonitoringScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -200,11 +196,6 @@ export default function App() {
         <Stack.Screen
           name="Notification"
           component={NotificationScreen}
-        />
-
-        <Stack.Screen
-          name="AI"
-          component={AIScreen}
         />
 
         <Stack.Screen
@@ -420,16 +411,6 @@ export default function App() {
         <Stack.Screen
           name="DetailResepMakanan"
           component={DetailResepMakananScreen}
-        />
-
-        <Stack.Screen
-          name="Sleep"
-          component={SleepScreen}
-        />
-
-        <Stack.Screen
-          name="SleepMonitoring"
-          component={SleepMonitoringScreen}
         />
 
       </Stack.Navigator>

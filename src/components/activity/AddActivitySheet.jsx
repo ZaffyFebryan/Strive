@@ -53,6 +53,7 @@ export default function AddActivitySheet({
 
   };
 
+  // DIHAPUS SAJA
   const handleSleep = () => {
 
     // Tutup Add Activity Sheet terlebih dahulu
@@ -145,29 +146,6 @@ export default function AddActivitySheet({
 
             <Text style={styles.apelText}>
               Asupan Nutrisi
-            </Text>
-
-          </TouchableOpacity>
-
-
-          {/* =================================================
-              TIDUR
-          ================================================= */}
-
-          <TouchableOpacity
-            style={styles.option}
-            onPress={handleSleep}
-            activeOpacity={0.7}
-          >
-
-            <Image
-              source={require('../../../assets/Bulan.png')}
-              style={styles.Bulan}
-              resizeMode="contain"
-            />
-
-            <Text style={styles.bulanText}>
-              Siklus Tidur
             </Text>
 
           </TouchableOpacity>

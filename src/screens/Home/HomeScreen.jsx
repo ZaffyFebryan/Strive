@@ -225,25 +225,6 @@ export default function HomeScreen({ navigation }) {
 
 
           {/* =================================================
-              AI
-          ================================================= */}
-
-          <TouchableOpacity
-            style={styles.headerButton}
-            onPress={() => navigation.navigate('AI')}
-            activeOpacity={0.7}
-          >
-
-            <Image
-              source={require('../../../assets/AI.png')}
-              style={styles.headerIcon}
-              resizeMode="contain"
-            />
-
-          </TouchableOpacity>
-
-
-          {/* =================================================
               NOTIFICATION
           ================================================= */}
 
@@ -777,69 +758,6 @@ export default function HomeScreen({ navigation }) {
           </TouchableOpacity>
 
         </View>
-
-
-        {/* =================================================
-            AKTIVITAS TIDUR
-        ================================================= */}
-
-        <View style={styles.contentCard}>
-
-          <View style={styles.sleepBadge}>
-
-            <Text style={styles.sleepBadgeText}>
-              7 j
-            </Text>
-
-
-            <Image
-              source={require('../../../assets/jam.png')}
-              style={styles.sleepIcon}
-              resizeMode="contain"
-            />
-
-          </View>
-
-
-          <Text style={styles.sectionTitle}>
-            Aktivitas Tidur
-          </Text>
-
-
-          <Text style={styles.sleepText}>
-            Waktu Tidur:
-
-            <Text style={styles.descriptionGreen}>
-              {' '}22:00 - 05:00
-            </Text>
-          </Text>
-
-
-          <TouchableOpacity
-            style={styles.primaryButton}
-            onPress={() => navigation.navigate('Sleep')}
-            activeOpacity={0.8}
-          >
-
-            <Text style={styles.primaryButtonText}>
-              Pantau sekarang
-            </Text>
-
-
-            <View style={styles.arrowButton}>
-
-              <Image
-                source={require('../../../assets/panah-kanan-baru.png')}
-                style={styles.arrowIcon}
-                resizeMode="contain"
-              />
-
-            </View>
-
-          </TouchableOpacity>
-
-        </View>
-
 
       </ScrollView>
 
