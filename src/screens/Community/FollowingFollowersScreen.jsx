@@ -68,11 +68,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'deddy',
+      id: 'rodri',
 
-      name: 'Deddy Corbuzier',
+      name: 'Rodri Go',
 
-      username: '@deddycorbuzier',
+      username: '@rodri go',
 
       image:
         require('../../../assets/deddy.png'),
@@ -82,11 +82,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'raditya',
+      id: 'robert leonardo',
 
-      name: 'Raditya Dika',
+      name: 'Robert Leonardo',
 
-      username: '@radityadika',
+      username: '@robertleonardo',
 
       image:
         require('../../../assets/radit.png'),
@@ -96,11 +96,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'gia',
+      id: 'charles giggs',
 
-      name: 'Gia Pratama',
+      name: 'Charles Giggs',
 
-      username: '@drgiapratama',
+      username: '@charlesgiggs',
 
       image:
         require('../../../assets/gia.png'),
@@ -110,11 +110,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'robi',
+      id: 'johan roberto',
 
-      name: 'Robi Syanturi',
+      name: 'Johan Roberto',
 
-      username: '@robisyanturi',
+      username: '@johanroberto',
 
       image:
         require('../../../assets/robby.png'),
@@ -124,11 +124,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'bobby',
+      id: 'bobby franklin',
 
-      name: 'Bobby Ida',
+      name: 'Bobby Franklin',
 
-      username: '@bobbyida',
+      username: '@bobbyfranklin',
 
       image:
         require('../../../assets/bobby.png'),
@@ -138,11 +138,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'ade',
+      id: 'adess richard',
 
-      name: 'Ade Rai',
+      name: 'Adess Richard',
 
-      username: '@aderai',
+      username: '@adessrichard',
 
       image:
         require('../../../assets/ade.png'),
@@ -152,11 +152,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'chris',
+      id: 'christopher',
 
-      name: 'Chris Putra',
+      name: 'Christopher',
 
-      username: '@christputra',
+      username: '@christopher',
 
       image:
         require('../../../assets/christ.png'),
@@ -166,11 +166,11 @@ export default function FollowingScreen({
 
 
     {
-      id: 'ikhsa',
+      id: 'jordan peter',
 
-      name: 'Ikhsanuddin Qothi',
+      name: 'Jordan Peter',
 
-      username: '@drikhsanqthii',
+      username: '@jordanpeter',
 
       image:
         require('../../../assets/ikhsan.png'),
@@ -180,7 +180,7 @@ export default function FollowingScreen({
 
 
     {
-      id: 'user10',
+      id: 'Andi Pratama',
 
       name: 'Andi Pratama',
 
@@ -192,13 +192,12 @@ export default function FollowingScreen({
       following: false,
     },
 
-
     {
-      id: 'user11',
+      id: 'miguel de robin',
 
-      name: 'Tulipoi',
+      name: 'Miguel de Robin',
 
-      username: '@tulipoi',
+      username: '@miguelderobin',
 
       image:
         require('../../../assets/tulipoi.png'),
