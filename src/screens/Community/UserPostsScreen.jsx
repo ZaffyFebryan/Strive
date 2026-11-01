@@ -84,7 +84,7 @@ export default function UserPostsScreen({
       profileImage: user.profileImage,
 
       caption:
-        'Ready @mandiri_jogmar cat 10km Kali ini pake jeans 18oz dari @oldblueco',
+        'Ready untuk persiapan body contest bulan depan',
 
       images: [
 
@@ -113,7 +113,7 @@ export default function UserPostsScreen({
       profileImage: user.profileImage,
 
       caption:
-        'Rutinitas pagi tadi sebelum meeting Jumat berkah',
+        'Rutinitas pagi',
 
       likes: '10,4K',
 
